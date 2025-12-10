@@ -57,7 +57,7 @@ const Navbar = () => {
               offset={-40}
               class="my-auto cursor-pointer menuHover px-3"
             >
-              Catalogue
+              Catálogo
             </Link>
             <Link
               to="about"
@@ -66,7 +66,7 @@ const Navbar = () => {
               offset={-150}
               class="my-auto cursor-pointer menuHover px-3"
             >
-              About
+              Nosotros
             </Link>
             <Link
               to="testimonial"
@@ -75,7 +75,7 @@ const Navbar = () => {
               offset={-135}
               class="my-auto cursor-pointer menuHover px-3"
             >
-              Testimonial
+              Testimonios
             </Link>
           </div>
 
@@ -104,7 +104,7 @@ const Navbar = () => {
             {/* LOGIN BUTTON----------------------------------------------- */}
             <div class="text-[min(3.5vw,15px)] flex text-white purchaseBtn">
               <div class="bg-[#9959d0] py-2 px-7 rounded-full cursor-pointer">
-                Login
+                Iniciar Sesión
               </div>
             </div>
           </div>

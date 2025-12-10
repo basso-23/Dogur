@@ -112,7 +112,7 @@ const Cart = ({ isCartOpen, setIsCartOpen }) => {
           <div className="flex justify-between items-start mb-2">
             <div>
               <h4 className="font-semibold text-[#313d47]">{name}</h4>
-              <p className="text-sm text-[#878787]">${price.toFixed(2)}/pcs</p>
+              <p className="text-sm text-[#878787]">${price.toFixed(2)}/pza</p>
             </div>
             <button
               onClick={handleRemove}
@@ -160,7 +160,7 @@ const Cart = ({ isCartOpen, setIsCartOpen }) => {
         <div className="flex items-center gap-3">
           <HiOutlineShoppingBag className="text-2xl text-[#9959d0]" />
           <h2 className="text-xl font-semibold text-[#313d47]">
-            Shopping Cart
+            Carrito de Compras
           </h2>
           {$total.value > 0 && (
             <div className="bg-[#E7FC55] px-3 py-1 rounded-full text-sm font-medium">
@@ -184,16 +184,16 @@ const Cart = ({ isCartOpen, setIsCartOpen }) => {
             <HiOutlineShoppingBag className="text-6xl text-gray-300" />
           </div>
           <h3 className="text-xl font-semibold text-[#313d47] mb-2">
-            Your cart is empty
+            Tu carrito está vacío
           </h3>
           <p className="text-[#878787] mb-6">
-            Add some delicious donuts to get started!
+            ¡Agrega algunas donas deliciosas para comenzar!
           </p>
           <button
             onClick={() => setIsCartOpen(false)}
             className="bg-[#9959d0] text-white px-6 py-3 rounded-full font-medium purchaseBtn"
           >
-            Browse Donuts
+            Explorar Donas
           </button>
         </div>
       ) : (
@@ -223,11 +223,11 @@ const Cart = ({ isCartOpen, setIsCartOpen }) => {
           <div className="border-t border-gray-200 p-4 bg-white">
             <div className="space-y-2 mb-4">
               <div className="flex justify-between text-[#878787]">
-                <span>Subtotal ({$total.value} items)</span>
+                <span>Subtotal ({$total.value} artículos)</span>
                 <span>${$totalPrice.value.toFixed(2)}</span>
               </div>
               <div className="flex justify-between text-[#878787]">
-                <span>Tax (10%)</span>
+                <span>Impuesto (10%)</span>
                 <span>${($totalPrice.value * 0.1).toFixed(2)}</span>
               </div>
               <div className="flex justify-between text-lg font-semibold text-[#313d47] pt-2 border-t border-gray-200">
@@ -238,11 +238,11 @@ const Cart = ({ isCartOpen, setIsCartOpen }) => {
 
             <button
               onClick={() => {
-                alert("Checkout functionality - Coming soon!");
+                alert("¡Funcionalidad de pago próximamente!");
               }}
               className="w-full bg-[#9959d0] text-white py-4 rounded-full font-semibold text-lg purchaseBtn hover:bg-[#8848bf] transition-colors"
             >
-              Checkout
+              Finalizar Compra
             </button>
           </div>
         </>

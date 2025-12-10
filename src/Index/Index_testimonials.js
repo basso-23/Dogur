@@ -3,25 +3,25 @@ const testimonials1 = [
     name: "Howard Morse",
     image: "testimonial_H7",
     testimonial:
-      "I've never experienced such heavenly donuts! Dogur introduced me to a whole new world of flavors and made me a lifelong donu enthusiast.",
+      "¡Nunca había experimentado donas tan celestiales! Dogur me introdujo a un mundo completamente nuevo de sabores y me convirtió en un entusiasta de las donas de por vida.",
   },
   {
     name: "Audrey Klein",
     image: "testimonial_M1",
     testimonial:
-      "The donuts from Dogur are a true work of art. Fresh, flavorful, and delivered with care. They've won me over completely.",
+      "Las donas de Dogur son una verdadera obra de arte. Frescas, sabrosas y entregadas con cuidado. Me han conquistado por completo.",
   },
   {
     name: "Aiza Saunders",
     image: "testimonial_M3",
     testimonial:
-      "As a self-proclaimed donut fan, I can confidently say that Dogur offers the best selection I've ever come across. Each bite is a burst of joy!",
+      "Como fanática autoproclamada de las donas, puedo decir con confianza que Dogur ofrece la mejor selección que he encontrado. ¡Cada bocado es una explosión de alegría!",
   },
   {
     name: "Guy Bryant",
     image: "testimonial_H1",
     testimonial:
-      "I've never experienced such heavenly donuts! Dogur introduced me to a whole new world of flavors and made me a lifelong donu enthusiast.",
+      "¡Nunca había experimentado donas tan celestiales! Dogur me introdujo a un mundo completamente nuevo de sabores y me convirtió en un entusiasta de las donas de por vida.",
   },
 ];
 
@@ -30,25 +30,25 @@ const testimonials2 = [
     name: "Josh Carpenter",
     image: "testimonial_H2",
     testimonial:
-      "The quality and variety of donuts at Dogur are unbeatable. It's become a weekly tradition for my family. ",
+      "La calidad y variedad de donas en Dogur son incomparables. Se ha convertido en una tradición semanal para mi familia.",
   },
   {
     name: "Gary Farmer",
     image: "testimonial_H3",
     testimonial:
-      "My donut cravings are always satisfied by Dogur Their commitment to freshness is evident in every bite.",
+      "Mis antojos de donas siempre son satisfechos por Dogur. Su compromiso con la frescura es evidente en cada bocado.",
   },
   {
     name: "Albert Wright",
     image: "testimonial_H4",
     testimonial:
-      "Donuts have always been my guilty pleasure, and Dogur makes it too easy to indulge. Their website is a treasure trove of donut delights!",
+      "Las donas siempre han sido mi placer culpable, y Dogur hace que sea demasiado fácil disfrutar. ¡Su sitio web es un tesoro de delicias de donas!",
   },
   {
     name: "Lea Snow",
     image: "testimonial_M2",
     testimonial:
-      "I've never experienced such heavenly donuts! Dogur introduced me to a whole new world of flavors and made me a lifelong donu enthusiast.",
+      "¡Nunca había experimentado donas tan celestiales! Dogur me introdujo a un mundo completamente nuevo de sabores y me convirtió en un entusiasta de las donas de por vida.",
   },
 ];
 
@@ -57,24 +57,24 @@ const testimonials3 = [
     name: "Eve Sykes",
     image: "testimonial_M4",
     testimonial:
-      "I've been on a lifelong quest for the perfect donut, and I can confidently say that my search ended at Dogur. Their donuts are a true masterpiece, a symphony of taste and texture. Thank you for making my mornings better!",
+      "He estado en una búsqueda de toda la vida por la dona perfecta, y puedo decir con confianza que mi búsqueda terminó en Dogur. Sus donas son una verdadera obra maestra, una sinfonía de sabor y textura. ¡Gracias por hacer mis mañanas mejores!",
   },
   {
     name: "Kristen Bentley",
     image: "testimonial_M5",
-    testimonial: "I'm in donut heaven every time I order from Dogur.",
+    testimonial: "Estoy en el cielo de las donas cada vez que ordeno de Dogur.",
   },
   {
     name: "Saul West",
     image: "testimonial_H5",
     testimonial:
-      "If there's one thing I've learned, it's that Dogur takes donuts to a whole new level. The dedication to quality is evident in the taste, and the variety keeps me excited to try something row every time.",
+      "Si hay algo que he aprendido, es que Dogur lleva las donas a un nivel completamente nuevo. La dedicación a la calidad es evidente en el sabor, y la variedad me mantiene emocionado de probar algo nuevo cada vez.",
   },
   {
     name: "James Jackson",
     image: "testimonial_H6",
     testimonial:
-      "I've never experienced such heavenly donuts! Dogur introduced me to a whole new world of flavors and made me a lifelong donu enthusiast.",
+      "¡Nunca había experimentado donas tan celestiales! Dogur me introdujo a un mundo completamente nuevo de sabores y me convirtió en un entusiasta de las donas de por vida.",
   },
 ];
 

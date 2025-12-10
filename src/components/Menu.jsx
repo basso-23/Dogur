@@ -54,7 +54,7 @@ const Menu = ({ isOpen, setIsOpen, isCartOpen, setIsCartOpen }) => {
                   setIsOpen(false);
                 }}
               >
-                Catalogue
+                Catálogo
               </Link>
               <Link
                 to="about"
@@ -66,7 +66,7 @@ const Menu = ({ isOpen, setIsOpen, isCartOpen, setIsCartOpen }) => {
                   setIsOpen(false);
                 }}
               >
-                About
+                Nosotros
               </Link>
               <Link
                 to="testimonial"
@@ -78,7 +78,7 @@ const Menu = ({ isOpen, setIsOpen, isCartOpen, setIsCartOpen }) => {
                   setIsOpen(false);
                 }}
               >
-                Testimonial
+                Testimonios
               </Link>
             </div>
           </m.div>

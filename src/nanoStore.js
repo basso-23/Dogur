@@ -8,7 +8,7 @@ const products = map({
     quantity: 0,
     countId: "count1",
     addId: "add1",
-    name: "Snow Donut",
+    name: "Dona Nevada",
     price: 1.5,
   },
   donut2: {
@@ -17,7 +17,7 @@ const products = map({
     quantity: 0,
     countId: "count2",
     addId: "add2",
-    name: "Strawberry Whimsie",
+    name: "Capricho de Fresa",
     price: 1.2,
   },
   donut3: {
@@ -26,7 +26,7 @@ const products = map({
     quantity: 0,
     countId: "count3",
     addId: "add3",
-    name: "Caramaelow",
+    name: "Nubecaramelo",
     price: 1.5,
   },
   donut4: {
@@ -35,7 +35,7 @@ const products = map({
     quantity: 0,
     countId: "count4",
     addId: "add4",
-    name: "Taro Preketek",
+    name: "Taro Crocante",
     price: 1.5,
   },
   donut5: {
@@ -44,7 +44,7 @@ const products = map({
     quantity: 0,
     countId: "count5",
     addId: "add5",
-    name: "Chocoreng",
+    name: "Chocorelleno",
     price: 1.5,
   },
   donut6: {
@@ -53,7 +53,7 @@ const products = map({
     quantity: 0,
     countId: "count6",
     addId: "add6",
-    name: "Bulan Purnama",
+    name: "Luna Llena",
     price: 2.0,
   },
 });

@@ -47,7 +47,7 @@ const Donut = ({ name, price, buy, new_, image }) => {
         {/* NEW CONTAINER----------------------------------------------- */}
         <div class={`top-0 left-0 ${new_} p-[10px] flex`}>
           <div class="py-1 px-4 bg-[#E7FC55] rounded-full font-medium text-[min(3.5vw,15px)]">
-            New
+            Nuevo
           </div>
         </div>
       </div>

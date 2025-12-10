@@ -123,14 +123,13 @@ const Navbar = () => {
       <AnimatePresence>
         {isCartOpen ? (
           <m.div
-            initial={{ x: "40vw", opacity: 1 }}
-            animate={{ x: "0vw", opacity: 1 }}
+            initial={{ x: "100%", opacity: 0 }}
+            animate={{ x: "0%", opacity: 1 }}
             transition={{
               duration: 0.3,
-              ease: "easeOut",
-              delay: 0,
+              ease: [0.4, 0, 0.2, 1],
             }}
-            exit={{ x: "40vw", opacity: 1 }}
+            exit={{ x: "100%", opacity: 0 }}
           >
             <Cart isCartOpen={isCartOpen} setIsCartOpen={setIsCartOpen} />
           </m.div>

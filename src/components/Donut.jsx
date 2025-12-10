@@ -18,6 +18,7 @@ import {
   add6,
   c6,
   addTotal,
+  calculateTotalPrice,
 } from "../nanoStore.js";
 
 const Donut = ({ name, price, buy, new_, image }) => {
@@ -28,6 +29,12 @@ const Donut = ({ name, price, buy, new_, image }) => {
   const count4 = useStore(c4);
   const count5 = useStore(c5);
   const count6 = useStore(c6);
+
+  const parsePrice = (priceStr) => {
+    return parseFloat(priceStr.replace("$", "").split("/")[0]);
+  };
+  const numericPrice = parsePrice(price);
+
   return (
     <div class="w-full sm:w-[min(90vw,350px)] h-[min(100vw,400px)] bg-[#f5f5f5] rounded-2xl mx-auto p-3 relative shadowStory">
       {/* MAIN CONTAINER----------------------------------------------- */}
@@ -64,7 +71,9 @@ const Donut = ({ name, price, buy, new_, image }) => {
                       keyNum,
                       eval(countId).value,
                       countId,
-                      addId
+                      addId,
+                      name,
+                      numericPrice
                     );
                   }}
                   class="flex absolute bottom-0 right-0 mr-4 mb-[30px] purchaseBtn"
